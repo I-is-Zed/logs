@@ -1,0 +1,603 @@
+//===============================================================================================================//
+//=====  Kopernicus 1.7.3-2 - (BuildDate: 12.09.2019 10:49:54; AssemblyHash: mEiDzMX4z4uZzKUC3t772hbCbxI=)  =====//
+//===============================================================================================================//
+[LOG 22:22:50]: Logger "Squad/Eeloo.Body" was created
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:50]: Parsing Target Template in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.TemplateLoader)
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.TemplateLoader) as (System.String)
+[LOG 22:22:50]: Parsing Target removePQS in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target removeBiomes in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target removeAtmosphere in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target removeOcean in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target removePQSMods in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.StringCollectionParser)
+[LOG 22:22:50]: Parsing Target removeAllPQSMods in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target removeProgressTree in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target removeCoronas in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Using Template "Eeloo"
+[LOG 22:22:50]: Removing mods from pqs Eeloo
+[LOG 22:22:50]: Creating blacklist
+[LOG 22:22:50]: Blacklist count = 4
+[LOG 22:22:50]: Removed mod PQSMod_VertexHeightNoiseVertHeight
+[LOG 22:22:50]: Patching PQSLandControl
+[LOG 22:22:50]: Parsing Target cacheFile in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:50]: Parsing Target barycenter in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target cbNameLater in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:50]: Parsing Target identifier in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:50]: Parsing Target self in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.ConfigParser.BuiltinTypeParsers.StringCollectionParser])
+[LOG 22:22:50]: Parsing Target finalizeOrbit in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target randomMainMenuBody in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target contractWeight in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target Properties in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.PropertiesLoader)
+[LOG 22:22:50]: Parsing Target description in (Kopernicus.Configuration.PropertiesLoader) as (System.String)
+[LOG 22:22:50]: Parsing Target radius in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target geeASL in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target mass in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target gravParameter in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target rotates in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target rotationPeriod in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target tidallyLocked in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target initialRotation in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target inverseRotThresholdAltitude in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target albedo in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target emissivity in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target coreTemperatureOffset in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target timewarpAltitudeLimits in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target sphereOfInfluence in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target solarRotationPeriod in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target navballSwitchRadiusMult in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target navballSwitchRadiusMultLow in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target ScienceValues in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.ScienceValuesLoader)
+[LOG 22:22:50]: Parsing Target landedDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target splashedDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target flyingLowDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target flyingHighDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target inSpaceLowDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target inSpaceHighDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target recoveryValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target flyingAltitudeThreshold in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target spaceAltitudeThreshold in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target biomeMap in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.Parsing.MapSOParserRGB`1[CBAttributeMapSO])
+[LOG 22:22:50]: Parsing Target nonExactThreshold in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target exactSearch in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target Biomes in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.BiomeLoader])
+[LOG 22:22:50]: Parsing Target useTheInName in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target displayName in (Kopernicus.Configuration.PropertiesLoader) as (System.String)
+[LOG 22:22:50]: Parsing Target selectable in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target RDVisibility in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.PropertiesLoader+RnDVisibility])
+[LOG 22:22:50]: Parsing Target RnDVisibility in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.PropertiesLoader+RnDVisibility])
+[LOG 22:22:50]: Parsing Target RnDRotation in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target maxZoom in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: --------- Science Values ------------
+[LOG 22:22:50]: LandedDataValue = 11
+[LOG 22:22:50]: SplashedDataValue = 1
+[LOG 22:22:50]: FlyingLowDataValue = 1
+[LOG 22:22:50]: FlyingHighDataValue = 1
+[LOG 22:22:50]: InSpaceLowDataValue = 9
+[LOG 22:22:50]: InSpaceHighDataValue = 8
+[LOG 22:22:50]: RecoveryValue = 8
+[LOG 22:22:50]: flyingAltitudeThreshold = 18000
+[LOG 22:22:50]: spaceAltitudeThreshold = 60000
+[LOG 22:22:50]: --------------------------------------
+[LOG 22:22:50]: Found Biome: Poles : RGBA(1.000, 1.000, 1.000, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Northern Glaciers : RGBA(0.792, 0.792, 0.792, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Lowlands : RGBA(0.482, 0.639, 0.906, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Highlands : RGBA(0.835, 0.855, 0.882, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Ice Canyons : RGBA(1.000, 0.710, 0.388, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Craters : RGBA(0.878, 0.533, 0.133, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Midlands : RGBA(0.745, 0.808, 0.910, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Fragipan : RGBA(1.000, 0.804, 0.580, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Babbage Patch : RGBA(0.592, 0.702, 0.894, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Southern Glaciers : RGBA(0.878, 0.878, 0.878, 1.000) : 0
+[LOG 22:22:50]: Found Biome: Mu Glacier : RGBA(0.486, 0.486, 0.486, 1.000) : 0
+[LOG 22:22:50]: Parsing Target Orbit in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.OrbitLoader)
+[LOG 22:22:50]: Parsing Target referenceBody in (Kopernicus.Configuration.OrbitLoader) as (System.String)
+[LOG 22:22:50]: Parsing Target inclination in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target eccentricity in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target semiMajorAxis in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target longitudeOfAscendingNode in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target argumentOfPeriapsis in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target meanAnomalyAtEpoch in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target meanAnomalyAtEpochD in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target epoch in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target color in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:50]: Parsing Target iconColor in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:50]: Parsing Target nodeColor in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:50]: Parsing Target mode in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[OrbitRendererBase+DrawMode])
+[LOG 22:22:50]: Parsing Target icon in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[OrbitRendererBase+DrawIcons])
+[LOG 22:22:50]: Parsing Target cameraSmaRatioBounds in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target period in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target iconTexture in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target ScaledVersion in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.ScaledVersionLoader)
+[LOG 22:22:50]: Parsing Target type in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.Enumerations.BodyType])
+[LOG 22:22:50]: Copying "celestialBody": <NULL> => <NULL>
+[LOG 22:22:50]: Copying "floatName": <NULL> => _Opacity
+[LOG 22:22:50]: Copying "fadeStart": 0 => 95000
+[LOG 22:22:50]: Copying "fadeEnd": 0 => 100000
+[LOG 22:22:50]: Copying "r": <NULL> => <NULL>
+[LOG 22:22:50]: Parsing Target fadeStart in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target fadeEnd in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target Light in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.LightShifterLoader)
+[LOG 22:22:50]: Parsing Target sphericalModel in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target deferMesh in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target invisible in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target Material in (Kopernicus.Configuration.ScaledVersionLoader) as (UnityEngine.Material)
+[LOG 22:22:50]: Parsing Target OnDemand in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.ScaledVersionLoader+OnDemandConfig)
+[LOG 22:22:50]: Parsing Target mainTex in (Kopernicus.Configuration.ScaledVersionLoader+OnDemandConfig) as (System.String)
+[LOG 22:22:50]: Parsing Target texture in (Kopernicus.Configuration.ScaledVersionLoader+OnDemandConfig) as (System.String)
+[LOG 22:22:50]: Parsing Target bumpMap in (Kopernicus.Configuration.ScaledVersionLoader+OnDemandConfig) as (System.String)
+[LOG 22:22:50]: Parsing Target normals in (Kopernicus.Configuration.ScaledVersionLoader+OnDemandConfig) as (System.String)
+[LOG 22:22:50]: Parsing Target TextureOptions in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.UI.PlanetTextureExporter+TextureOptions)
+[LOG 22:22:50]: Parsing Target Coronas in (Kopernicus.Configuration.ScaledVersionLoader) as (System.Collections.Generic.List`1[Kopernicus.Configuration.CoronaLoader])
+[LOG 22:22:50]: ============= Scaled Version Dump ===================
+[LOG 22:22:50]: Eeloo (UnityEngine.GameObject)
+[LOG 22:22:50]:  >>> Components <<< 
+[LOG 22:22:50]:  Eeloo (UnityEngine.Transform)
+[LOG 22:22:50]:  Eeloo (UnityEngine.MeshFilter)
+[LOG 22:22:50]:  Eeloo (UnityEngine.MeshRenderer)
+[LOG 22:22:50]:  Eeloo (UnityEngine.SphereCollider)
+[LOG 22:22:50]:  Eeloo (Kopernicus.Components.SharedScaledSpaceFader)
+[LOG 22:22:50]:  >>> ---------- <<< 
+[LOG 22:22:50]: ===========================================
+[LOG 22:22:50]: Parsing Target Atmosphere in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.AtmosphereLoader)
+[LOG 22:22:50]: Parsing Target PQS in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.PQSLoader)
+[LOG 22:22:50]: Parsing Target materialType in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.PQSLoader+SurfaceMaterialType])
+[LOG 22:22:50]: Parsing Target PhysicsMaterial in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.Parsing.PhysicsMaterialParser)
+[LOG 22:22:50]: Parsing Target minLevel in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target maxLevel in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target minDetailDistance in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target maxQuadLengthsPerFrame in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target fadeStart in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target fadeEnd in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target deactivateAltitude in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target mapMaxHeight in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target Material in (Kopernicus.Configuration.PQSLoader) as (UnityEngine.Material)
+[LOG 22:22:50]: Parsing Target saturation in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target contrast in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target tintColor in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:50]: Parsing Target powerNear in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target powerFar in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target groundTexStart in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target groundTexEnd in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target steepPower in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target steepTexStart in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target steepTexEnd in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target steepTex in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target steepTexScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target steepTexOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target steepBumpMap in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target steepBumpMapScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target steepBumpMapOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target steepNearTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target steepTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target lowTex in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target lowTexScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target lowTexOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target lowBumpMap in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target lowBumpMapScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target lowBumpMapOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target lowNearTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target lowMultiFactor in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target lowBumpNearTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target lowBumpFarTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target midTex in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target midTexScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target midTexOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target midBumpMap in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target midBumpMapScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target midBumpMapOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target midNearTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target midMultiFactor in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target midBumpNearTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target midBumpFarTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target highTex in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target highTexScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target highTexOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target highBumpMap in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target highBumpMapScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target highBumpMapOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target highNearTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target highMultiFactor in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target highBumpNearTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target highBumpFarTiling in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target lowStart in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target lowEnd in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target highStart in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target highEnd in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target globalDensity in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target fogColorRamp in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target FogColorRamp in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.Configuration.Parsing.Gradient)
+[LOG 22:22:50]: Parsing Target fogColorRampScale in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target fogColorRampOffset in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target planetOpacity in (Kopernicus.Configuration.MaterialLoader.PQSMainExtrasLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target FallbackMaterial in (Kopernicus.Configuration.PQSLoader) as (UnityEngine.Material)
+[LOG 22:22:50]: Parsing Target Mods in (Kopernicus.Configuration.PQSLoader) as (System.Collections.Generic.List`1[Kopernicus.Configuration.ModLoader.IModLoader])
+[LOG 22:22:50]: Parsing Target deformation in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target displacement in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target enableDistance in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target frequency in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target seed in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target order in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target enabled in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.ModLoader.VertexVoronoi) as (System.String)
+[LOG 22:22:50]: Parsing Target deformity in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target ridgedAddFrequency in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target ridgedAddLacunarity in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target ridgedAddOctaves in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target ridgedAddSeed in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target ridgedMode in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.Enumerations.KopernicusNoiseQuality])
+[LOG 22:22:50]: Parsing Target ridgedSubFrequency in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target ridgedSubLacunarity in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target ridgedSubOctaves in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target ridgedSubSeed in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target simplexCurve in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:50]: Parsing Target self in (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser) as (System.Collections.Generic.List`1[Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single]])
+[LOG 22:22:50]: Parsing Target simplexFrequency in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexHeightEnd in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexHeightStart in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexOctaves in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexPersistence in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexSeed in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target order in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target enabled in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.ModLoader.VertexHeightNoiseVertHeightCurve2) as (System.String)
+[LOG 22:22:50]: Parsing Target colorOpacity in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target DebugColorMapping in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target deformation in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target CraterCurve in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:50]: Parsing Target self in (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser) as (System.Collections.Generic.List`1[Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single]])
+[LOG 22:22:50]: Parsing Target jitter in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target JitterCurve in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:50]: Parsing Target self in (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser) as (System.Collections.Generic.List`1[Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single]])
+[LOG 22:22:50]: Parsing Target jitterHeight in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target rFactor in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target rOffset in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target simplexFrequency in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexOctaves in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexPersistence in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target simplexSeed in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target voronoiDisplacement in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target voronoiFrequency in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target voronoiSeed in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target order in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target enabled in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.ModLoader.VoronoiCraters) as (System.String)
+[LOG 22:22:50]: Parsing Target map in (Kopernicus.Configuration.ModLoader.VertexColorMap) as (Kopernicus.Configuration.Parsing.MapSOParserRGB`1[MapSO])
+[LOG 22:22:50]: Parsing Target order in (Kopernicus.Configuration.ModLoader.VertexColorMap) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target enabled in (Kopernicus.Configuration.ModLoader.VertexColorMap) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.ModLoader.VertexColorMap) as (System.String)
+[LOG 22:22:50]: Parsing Target altitudeBlend in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target altitudeFrequency in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target altitudeOctaves in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target altitudePersistance in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target altitudeSeed in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target createColors in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target createScatter in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target heightMap in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.Configuration.Parsing.MapSOParserGreyScale`1[MapSO])
+[LOG 22:22:50]: Parsing Target latitudeBlend in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target latitudeFrequency in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target latitudeOctaves in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target latitudePersistance in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target latitudeSeed in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target longitudeBlend in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target longitudeFrequency in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target longitudeOctaves in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target longitudePersistance in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target longitudeSeed in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target useHeightMap in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target vHeightMax in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target scatters in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader])
+[LOG 22:22:50]: Parsing Target materialType in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader+ScatterMaterialType])
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (System.String)
+[LOG 22:22:50]: Parsing Target Components in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.Parsing.ComponentLoader`1[Kopernicus.Components.ModularScatter.ModularScatter]])
+[LOG 22:22:50]: Parsing Target material in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.Configuration.Parsing.StockMaterialParser)
+[LOG 22:22:50]: Parsing Target Material in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (UnityEngine.Material)
+[LOG 22:22:50]: Parsing Target color in (Kopernicus.Configuration.MaterialLoader.NormalBumpedLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:50]: Parsing Target mainTex in (Kopernicus.Configuration.MaterialLoader.NormalBumpedLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target mainTexScale in (Kopernicus.Configuration.MaterialLoader.NormalBumpedLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target mainTexOffset in (Kopernicus.Configuration.MaterialLoader.NormalBumpedLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target bumpMap in (Kopernicus.Configuration.MaterialLoader.NormalBumpedLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:50]: Parsing Target bumpMapScale in (Kopernicus.Configuration.MaterialLoader.NormalBumpedLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target bumpMapOffset in (Kopernicus.Configuration.MaterialLoader.NormalBumpedLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.Vector2Parser)
+[LOG 22:22:50]: Parsing Target mesh in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.Configuration.Parsing.MeshParser)
+[LOG 22:22:50]: Parsing Target Meshes in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (System.Collections.Generic.List`1[Kopernicus.Configuration.Parsing.MeshParser])
+[LOG 22:22:50]: Parsing Target castShadows in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target densityFactor in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target maxCache in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target maxCacheDelta in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target maxLevelOffset in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target maxScale in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target maxScatter in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target maxSpeed in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target minScale in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target recieveShadows in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target seed in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target verticalOffset in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target instancing in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target rotation in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target useBetterDensity in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target spawnChance in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target ignoreDensityGameSetting in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target densityVariance in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target delete in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target Scatters in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterLoader])
+[LOG 22:22:50]: Parsing Target landClasses in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader])
+[LOG 22:22:50]: Parsing Target alterApparentHeight in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target alterRealHeight in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target altitudeRange in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader)
+[LOG 22:22:50]: Parsing Target endEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target endStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target color in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:50]: Parsing Target coverageBlend in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target coverageFrequency in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target coverageOctaves in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target coveragePersistance in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target coverageSeed in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (System.String)
+[LOG 22:22:50]: Parsing Target latDelta in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target latitudeDouble in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target latitudeDoubleRange in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader)
+[LOG 22:22:50]: Parsing Target endEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target endStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target latitudeRange in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader)
+[LOG 22:22:50]: Parsing Target endEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target endStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target lonDelta in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target longitudeRange in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader)
+[LOG 22:22:50]: Parsing Target endEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target endStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startEnd in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target startStart in (Kopernicus.Configuration.ModLoader.LandControl+LerpRangeLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target minimumRealHeight in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target noiseBlend in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target noiseColor in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:50]: Parsing Target noiseFrequency in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target noiseOctaves in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target noisePersistance in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:50]: Parsing Target noiseSeed in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target scatters in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterAmountLoader])
+[LOG 22:22:50]: Parsing Target density in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterAmountLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:50]: Parsing Target scatterName in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterAmountLoader) as (System.String)
+[LOG 22:22:50]: Parsing Target delete in (Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterAmountLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target Scatters in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.ModLoader.LandControl+LandClassScatterAmountLoader])
+[LOG 22:22:50]: Parsing Target delete in (Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target LandClasses in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.ModLoader.LandControl+LandClassLoader])
+[LOG 22:22:50]: Parsing Target order in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:50]: Parsing Target enabled in (Kopernicus.Configuration.ModLoader.LandControl) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target name in (Kopernicus.Configuration.ModLoader.LandControl) as (System.String)
+[LOG 22:22:50]:   Eeloo (UnityEngine.GameObject)
+[LOG 22:22:50]:    >>> Components <<< 
+[LOG 22:22:50]:    Eeloo (UnityEngine.Transform)
+[LOG 22:22:50]:    Eeloo (PQS)
+[LOG 22:22:50]:    >>> ---------- <<< 
+[LOG 22:22:50]:       _Material_ModProjection (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _Material_ModProjection (UnityEngine.Transform)
+[LOG 22:22:50]:        _Material_ModProjection (PQSMod_AltitudeAlpha)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       _LandClass (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _LandClass (UnityEngine.Transform)
+[LOG 22:22:50]:        _LandClass (PQSLandControl)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:           Scatter (UnityEngine.GameObject)
+[LOG 22:22:50]:            >>> Components <<< 
+[LOG 22:22:50]:            Scatter (UnityEngine.Transform)
+[LOG 22:22:50]:            Scatter (Kopernicus.Components.ModularScatter.ModularScatter)
+[LOG 22:22:50]:            >>> ---------- <<< 
+[LOG 22:22:50]:           Scatter (UnityEngine.GameObject)
+[LOG 22:22:50]:            >>> Components <<< 
+[LOG 22:22:50]:            Scatter (UnityEngine.Transform)
+[LOG 22:22:50]:            Scatter (Kopernicus.Components.ModularScatter.ModularScatter)
+[LOG 22:22:50]:            >>> ---------- <<< 
+[LOG 22:22:50]:       _Material_AerialPerspective (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _Material_AerialPerspective (UnityEngine.Transform)
+[LOG 22:22:50]:        _Material_AerialPerspective (PQSMod_AerialPerspectiveMaterial)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       _Material_SurfaceQuads (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _Material_SurfaceQuads (UnityEngine.Transform)
+[LOG 22:22:50]:        _Material_SurfaceQuads (PQSMod_UVPlanetRelativePosition)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       _Height (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _Height (UnityEngine.Transform)
+[LOG 22:22:50]:        _Height (PQSMod_VertexHeightMap)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       _HeightNoise (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _HeightNoise (UnityEngine.Transform)
+[LOG 22:22:50]:        _HeightNoise (PQSMod_VertexSimplexHeight)
+[LOG 22:22:50]:        _HeightNoise (PQSMod_VertexHeightNoise)
+[LOG 22:22:50]:        _HeightNoise (PQSMod_VertexVoronoi)
+[LOG 22:22:50]:        _HeightNoise (PQSMod_FlattenOcean)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       _CelestialBody (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _CelestialBody (UnityEngine.Transform)
+[LOG 22:22:50]:        _CelestialBody (PQSMod_CelestialBodyTransform)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       QuadMeshColliders (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        QuadMeshColliders (UnityEngine.Transform)
+[LOG 22:22:50]:        QuadMeshColliders (PQSMod_QuadMeshColliders)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       Randolith (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        Randolith (UnityEngine.Transform)
+[LOG 22:22:50]:        Randolith (PQSCity)
+[LOG 22:22:50]:        Randolith (PrefabSpawner)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:           monolith01 (UnityEngine.GameObject)
+[LOG 22:22:50]:            >>> Components <<< 
+[LOG 22:22:50]:            monolith01 (UnityEngine.Transform)
+[LOG 22:22:50]:            monolith01 (UnityEngine.MeshFilter)
+[LOG 22:22:50]:            monolith01 (UnityEngine.MeshRenderer)
+[LOG 22:22:50]:            monolith01 (UnityEngine.Animation)
+[LOG 22:22:50]:            monolith01 (UnityEngine.MeshCollider)
+[LOG 22:22:50]:            >>> ---------- <<< 
+[LOG 22:22:50]:       _PQSROCControl (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        _PQSROCControl (UnityEngine.Transform)
+[LOG 22:22:50]:        _PQSROCControl (PQSROCControl)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       LandControlFixer (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        LandControlFixer (UnityEngine.Transform)
+[LOG 22:22:50]:        LandControlFixer (Kopernicus.Components.PQSLandControlFixer)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       OnDemandHandler (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        OnDemandHandler (UnityEngine.Transform)
+[LOG 22:22:50]:        OnDemandHandler (Kopernicus.OnDemand.PQSMod_OnDemandHandler)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       VertexHeightNoiseVertHeightCurve2 (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        VertexHeightNoiseVertHeightCurve2 (UnityEngine.Transform)
+[LOG 22:22:50]:        VertexHeightNoiseVertHeightCurve2 (PQSMod_VertexHeightNoiseVertHeightCurve2)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       VoronoiCraters (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        VoronoiCraters (UnityEngine.Transform)
+[LOG 22:22:50]:        VoronoiCraters (PQSMod_VoronoiCraters)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]:       VertexColorMap (UnityEngine.GameObject)
+[LOG 22:22:50]:        >>> Components <<< 
+[LOG 22:22:50]:        VertexColorMap (UnityEngine.Transform)
+[LOG 22:22:50]:        VertexColorMap (PQSMod_VertexColorMap)
+[LOG 22:22:50]:        >>> ---------- <<< 
+[LOG 22:22:50]: Parsing Target Ocean in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.OceanLoader)
+[LOG 22:22:50]: Parsing Target Rings in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.Configuration.RingLoader])
+[LOG 22:22:50]: Parsing Target Particles in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.Configuration.ParticleLoader])
+[LOG 22:22:50]: Parsing Target HazardousBody in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.Configuration.HazardousBodyLoader])
+[LOG 22:22:50]: Parsing Target SpaceCenter in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.SpaceCenterLoader)
+[LOG 22:22:50]: Parsing Target Debug in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.DebugLoader)
+[LOG 22:22:50]: Parsing Target exportMesh in (Kopernicus.Configuration.DebugLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target update in (Kopernicus.Configuration.DebugLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target showSOI in (Kopernicus.Configuration.DebugLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:50]: Parsing Target PostSpawnOrbit in (Kopernicus.Configuration.Body) as (ConfigNode)
+[LOG 22:22:52]: --------- Celestial Body ------------
+[LOG 22:22:52]: bodyName = Eeloo
+[LOG 22:22:52]: bodyDisplayName = #autoLOC_910039
+[LOG 22:22:52]: bodyAdjectiveDisplayName = #autoLOC_6004064
+[LOG 22:22:52]: bodyDescription = Discovered at the same time as Plock, the square heads in charge of cataloging the astronomical discoveries mixed up the records of two celestial bodies, leading to years of one being confused for the other. The surface of Eeloo is covered in brown scratches, which could be the result of cryovolcanic activity. This might mean that the moons harbors a liquid ocean beneath its frozen crust.
+[LOG 22:22:52]: GeeASL = 0.172058761891442
+[LOG 22:22:52]: Radius = 210000
+[LOG 22:22:52]: Mass = 0
+[LOG 22:22:52]: Density = 0
+[LOG 22:22:52]: SurfaceArea = 0
+[LOG 22:22:52]: gravParameter = 0
+[LOG 22:22:52]: sphereOfInfluence = 0
+[LOG 22:22:52]: hillSphere = 0
+[LOG 22:22:52]: gMagnitudeAtCenter = 0
+[LOG 22:22:52]: atmDensityASL = 0
+[LOG 22:22:52]: atmPressureASL = 0
+[LOG 22:22:52]: scaledEllipsoid = True
+[LOG 22:22:52]: scaledElipRadMult = [1, 1, 1]
+[LOG 22:22:52]: scaledRadiusHorizonMultiplier = 1
+[LOG 22:22:52]: navballSwitchRadiusMult = 0.06
+[LOG 22:22:52]: navballSwitchRadiusMultLow = 0.055
+[LOG 22:22:52]: use_The_InName = False
+[LOG 22:22:52]: isHomeWorld = False
+[LOG 22:22:52]: ocean = False
+[LOG 22:22:52]: oceanUseFog = True
+[LOG 22:22:52]: oceanFogPQSDepth = 1000
+[LOG 22:22:52]: oceanFogPQSDepthRecip = 0.001
+[LOG 22:22:52]: oceanFogDensityStart = 0.015
+[LOG 22:22:52]: oceanFogDensityEnd = 0.13
+[LOG 22:22:52]: oceanFogDensityPQSMult = 0.02
+[LOG 22:22:52]: oceanFogDensityAltScalar = -0.0008
+[LOG 22:22:52]: oceanFogDensityExponent = 1
+[LOG 22:22:52]: oceanFogColorStart = RGBA(0.000, 0.337, 0.486, 1.000)
+[LOG 22:22:52]: oceanFogColorEnd = RGBA(0.000, 0.084, 0.122, 1.000)
+[LOG 22:22:52]: oceanFogDawnFactor = 10
+[LOG 22:22:52]: oceanSkyColorMult = 1.2
+[LOG 22:22:52]: oceanSkyColorOpacityBase = 0.2
+[LOG 22:22:52]: oceanSkyColorOpacityAltMult = 2
+[LOG 22:22:52]: oceanDensity = 1
+[LOG 22:22:52]: oceanAFGBase = 0.6
+[LOG 22:22:52]: oceanAFGAltMult = 0.05
+[LOG 22:22:52]: oceanAFGMin = 0.05
+[LOG 22:22:52]: oceanSunBase = 0.5
+[LOG 22:22:52]: oceanSunAltMult = 0.01
+[LOG 22:22:52]: oceanSunMin = 0.05
+[LOG 22:22:52]: oceanAFGLerp = False
+[LOG 22:22:52]: oceanMinAlphaFogDistance = 200
+[LOG 22:22:52]: oceanMaxAlbedoFog = 0.95
+[LOG 22:22:52]: oceanMaxAlphaFog = 0.9
+[LOG 22:22:52]: oceanAlbedoDistanceScalar = 0.01
+[LOG 22:22:52]: oceanAlphaDistanceScalar = 0.01
+[LOG 22:22:52]: minOrbitalDistance = 100000
+[LOG 22:22:52]: atmosphere = False
+[LOG 22:22:52]: atmosphereContainsOxygen = False
+[LOG 22:22:52]: atmosphereDepth = 0
+[LOG 22:22:52]: atmosphereTemperatureSeaLevel = 288
+[LOG 22:22:52]: atmospherePressureSeaLevel = 101.325
+[LOG 22:22:52]: atmosphereMolarMass = 0.0289644
+[LOG 22:22:52]: atmosphereAdiabaticIndex = 1.39999997615814
+[LOG 22:22:52]: atmosphereTemperatureLapseRate = 0
+[LOG 22:22:52]: atmosphereGasMassLapseRate = 0
+[LOG 22:22:52]: atmosphereUseTemperatureCurve = False
+[LOG 22:22:52]: atmosphereTemperatureCurveIsNormalized = False
+[LOG 22:22:52]: atmosphereTemperatureCurve = FloatCurve
+[LOG 22:22:52]: latitudeTemperatureBiasCurve = FloatCurve
+[LOG 22:22:52]: latitudeTemperatureSunMultCurve = FloatCurve
+[LOG 22:22:52]: axialTemperatureSunMultCurve = FloatCurve
+[LOG 22:22:52]: axialTemperatureSunBiasCurve = FloatCurve
+[LOG 22:22:52]: atmosphereTemperatureSunMultCurve = FloatCurve
+[LOG 22:22:52]: maxAxialDot = 0
+[LOG 22:22:52]: eccentricityTemperatureBiasCurve = FloatCurve
+[LOG 22:22:52]: albedo = 0.5
+[LOG 22:22:52]: emissivity = 0.5
+[LOG 22:22:52]: coreTemperatureOffset = 0
+[LOG 22:22:52]: convectionMultiplier = 1
+[LOG 22:22:52]: shockTemperatureMultiplier = 1
+[LOG 22:22:52]: atmosphereUsePressureCurve = False
+[LOG 22:22:52]: atmospherePressureCurveIsNormalized = False
+[LOG 22:22:52]: atmospherePressureCurve = FloatCurve
+[LOG 22:22:52]: radiusAtmoFactor = 1
+[LOG 22:22:52]: hasSolidSurface = True
+[LOG 22:22:52]: isStar = False
+[LOG 22:22:52]: rotation = (0.0, 0.0, 0.0, 0.0)
+[LOG 22:22:52]: orbitDriver = Eeloo (OrbitDriver)
+[LOG 22:22:52]: pqsController = Eeloo (PQS)
+[LOG 22:22:52]: pqsSurfaceObjects = PQSSurfaceObject[]
+[LOG 22:22:52]: scaledBody = Eeloo (UnityEngine.GameObject)
+[LOG 22:22:52]: afg = 
+[LOG 22:22:52]: rotates = True
+[LOG 22:22:52]: rotationPeriod = 19460
+[LOG 22:22:52]: rotPeriodRecip = 0
+[LOG 22:22:52]: solarDayLength = 0
+[LOG 22:22:52]: solarRotationPeriod = False
+[LOG 22:22:52]: initialRotation = 25
+[LOG 22:22:52]: rotationAngle = 0
+[LOG 22:22:52]: directRotAngle = 0
+[LOG 22:22:52]: angularVelocity = [0, 0, 0]
+[LOG 22:22:52]: zUpAngularVelocity = [0, 0, 0]
+[LOG 22:22:52]: tidallyLocked = True
+[LOG 22:22:52]: clampInverseRotThreshold = True
+[LOG 22:22:52]: inverseRotation = False
+[LOG 22:22:52]: inverseRotThresholdAltitude = 100000
+[LOG 22:22:52]: angularV = 0
+[LOG 22:22:52]: timeWarpAltitudeLimits = System.Single[]
+[LOG 22:22:52]: atmosphericAmbientColor = RGBA(0.075, 0.075, 0.075, 1.000)
+[LOG 22:22:52]: orbitingBodies = System.Collections.Generic.List`1[CelestialBody]
+[LOG 22:22:52]: BodyFrame = Planetarium+CelestialFrame
+[LOG 22:22:52]: progressTree = KSPAchievements.CelestialBodySubtree
+[LOG 22:22:52]: bodyType = Generic
+[LOG 22:22:52]: scienceValues = CelestialBodyScienceParams
+[LOG 22:22:52]: BiomeMap = eeloo_biome (CBAttributeMapSO)
+[LOG 22:22:52]: MiniBiomes = MiniBiome[]
+[LOG 22:22:52]: bodyTransform = 
+[LOG 22:22:52]: --------------------------------------
+[LOG 22:22:52]: Eeloo is using custom cache file 'D:/Games/Modded Profiles/Modded ksp 1.7.3/KSP_1.7.3_Data/../GameData/OPM/Cache/Eeloo.bin'
+[LOG 22:22:52]: Body.PostApply(ConfigNode): Generating scaled space mesh: Eeloo
+[LOG 22:22:52]: Eeloo (CelestialBody)
+[LOG 22:22:52]: Eeloo (PQS)
+[LOG 22:22:52]: Eeloo (PQS)

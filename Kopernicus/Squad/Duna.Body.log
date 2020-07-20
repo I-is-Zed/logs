@@ -1,0 +1,436 @@
+//===============================================================================================================//
+//=====  Kopernicus 1.7.3-2 - (BuildDate: 12.09.2019 10:49:54; AssemblyHash: mEiDzMX4z4uZzKUC3t772hbCbxI=)  =====//
+//===============================================================================================================//
+[LOG 22:22:47]: Logger "Squad/Duna.Body" was created
+[LOG 22:22:47]: Parsing Target name in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:47]: Parsing Target Template in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.TemplateLoader)
+[LOG 22:22:47]: Parsing Target name in (Kopernicus.Configuration.TemplateLoader) as (System.String)
+[LOG 22:22:47]: Parsing Target removePQS in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target removeBiomes in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target removeAtmosphere in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target removeOcean in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target removePQSMods in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.StringCollectionParser)
+[LOG 22:22:47]: Parsing Target removeAllPQSMods in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target removeProgressTree in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target removeCoronas in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Using Template "Duna"
+[LOG 22:22:47]: Patching PQSLandControl
+[LOG 22:22:47]: Parsing Target cacheFile in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:47]: Parsing Target barycenter in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target cbNameLater in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:47]: Parsing Target identifier in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 22:22:47]: Parsing Target self in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.ConfigParser.BuiltinTypeParsers.StringCollectionParser])
+[LOG 22:22:47]: Parsing Target finalizeOrbit in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target randomMainMenuBody in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target contractWeight in (Kopernicus.Configuration.Body) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:47]: Parsing Target Properties in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.PropertiesLoader)
+[LOG 22:22:47]: Parsing Target description in (Kopernicus.Configuration.PropertiesLoader) as (System.String)
+[LOG 22:22:47]: Parsing Target radius in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target geeASL in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target mass in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target gravParameter in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target rotates in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target rotationPeriod in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target tidallyLocked in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target initialRotation in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target inverseRotThresholdAltitude in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target albedo in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target emissivity in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target coreTemperatureOffset in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target timewarpAltitudeLimits in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target sphereOfInfluence in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target solarRotationPeriod in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target navballSwitchRadiusMult in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target navballSwitchRadiusMultLow in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target ScienceValues in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.ScienceValuesLoader)
+[LOG 22:22:47]: Parsing Target landedDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target splashedDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target flyingLowDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target flyingHighDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target inSpaceLowDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target inSpaceHighDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target recoveryValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target flyingAltitudeThreshold in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target spaceAltitudeThreshold in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target biomeMap in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.Parsing.MapSOParserRGB`1[CBAttributeMapSO])
+[LOG 22:22:47]: Parsing Target nonExactThreshold in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target exactSearch in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target Biomes in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.Parsing.CallbackList`1[Kopernicus.Configuration.BiomeLoader])
+[LOG 22:22:47]: Parsing Target useTheInName in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target displayName in (Kopernicus.Configuration.PropertiesLoader) as (System.String)
+[LOG 22:22:47]: Parsing Target selectable in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target RDVisibility in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.PropertiesLoader+RnDVisibility])
+[LOG 22:22:47]: Parsing Target RnDVisibility in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.PropertiesLoader+RnDVisibility])
+[LOG 22:22:47]: Parsing Target RnDRotation in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target maxZoom in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: --------- Science Values ------------
+[LOG 22:22:47]: LandedDataValue = 8
+[LOG 22:22:47]: SplashedDataValue = 1
+[LOG 22:22:47]: FlyingLowDataValue = 5
+[LOG 22:22:47]: FlyingHighDataValue = 5
+[LOG 22:22:47]: InSpaceLowDataValue = 7
+[LOG 22:22:47]: InSpaceHighDataValue = 5
+[LOG 22:22:47]: RecoveryValue = 5
+[LOG 22:22:47]: flyingAltitudeThreshold = 12000
+[LOG 22:22:47]: spaceAltitudeThreshold = 140000
+[LOG 22:22:47]: --------------------------------------
+[LOG 22:22:47]: Found Biome: Poles : RGBA(1.000, 1.000, 1.000, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Midlands : RGBA(0.988, 0.549, 0.349, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Lowlands : RGBA(0.914, 0.416, 0.192, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Craters : RGBA(0.718, 0.396, 0.004, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Highlands : RGBA(1.000, 0.667, 0.514, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Midland Sea : RGBA(1.000, 0.569, 0.008, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Northern Basin : RGBA(0.710, 0.161, 0.133, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Southern Basin : RGBA(0.824, 0.290, 0.263, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Northern Shelf : RGBA(0.580, 0.071, 0.043, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Midland Canyon : RGBA(0.733, 0.345, 0.035, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Eastern Canyon : RGBA(0.600, 0.267, 0.000, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Western Canyon : RGBA(0.435, 0.192, 0.000, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Polar Highlands : RGBA(0.902, 0.902, 0.902, 1.000) : 0
+[LOG 22:22:47]: Found Biome: Polar Craters : RGBA(0.745, 0.745, 0.745, 1.000) : 0
+[LOG 22:22:47]: Parsing Target Orbit in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.OrbitLoader)
+[LOG 22:22:47]: Parsing Target referenceBody in (Kopernicus.Configuration.OrbitLoader) as (System.String)
+[LOG 22:22:47]: Parsing Target inclination in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target eccentricity in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target semiMajorAxis in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target longitudeOfAscendingNode in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target argumentOfPeriapsis in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target meanAnomalyAtEpoch in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target meanAnomalyAtEpochD in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target epoch in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target color in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:47]: Parsing Target iconColor in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:47]: Parsing Target nodeColor in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:47]: Parsing Target mode in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[OrbitRendererBase+DrawMode])
+[LOG 22:22:47]: Parsing Target icon in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[OrbitRendererBase+DrawIcons])
+[LOG 22:22:47]: Parsing Target cameraSmaRatioBounds in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericCollectionParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target period in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target iconTexture in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.Parsing.Texture2DParser)
+[LOG 22:22:47]: Parsing Target ScaledVersion in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.ScaledVersionLoader)
+[LOG 22:22:47]: Parsing Target type in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.Enumerations.BodyType])
+[LOG 22:22:47]: Copying "celestialBody": <NULL> => <NULL>
+[LOG 22:22:47]: Copying "floatName": <NULL> => _Opacity
+[LOG 22:22:47]: Copying "fadeStart": 0 => 95000
+[LOG 22:22:47]: Copying "fadeEnd": 0 => 97000
+[LOG 22:22:47]: Copying "r": <NULL> => <NULL>
+[LOG 22:22:47]: Parsing Target fadeStart in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target fadeEnd in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target Light in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.LightShifterLoader)
+[LOG 22:22:47]: Parsing Target sphericalModel in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target deferMesh in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target invisible in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target Material in (Kopernicus.Configuration.ScaledVersionLoader) as (UnityEngine.Material)
+[LOG 22:22:47]: Parsing Target OnDemand in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.ScaledVersionLoader+OnDemandConfig)
+[LOG 22:22:47]: Parsing Target TextureOptions in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.UI.PlanetTextureExporter+TextureOptions)
+[LOG 22:22:47]: Parsing Target Coronas in (Kopernicus.Configuration.ScaledVersionLoader) as (System.Collections.Generic.List`1[Kopernicus.Configuration.CoronaLoader])
+[LOG 22:22:47]: ============= Scaled Version Dump ===================
+[LOG 22:22:47]: Duna (UnityEngine.GameObject)
+[LOG 22:22:47]:  >>> Components <<< 
+[LOG 22:22:47]:  Duna (UnityEngine.Transform)
+[LOG 22:22:47]:  Duna (UnityEngine.MeshFilter)
+[LOG 22:22:47]:  Duna (UnityEngine.MeshRenderer)
+[LOG 22:22:47]:  Duna (UnityEngine.SphereCollider)
+[LOG 22:22:47]:  Duna (MaterialSetDirection)
+[LOG 22:22:47]:  Duna (Kopernicus.Components.SharedScaledSpaceFader)
+[LOG 22:22:47]:  >>> ---------- <<< 
+[LOG 22:22:47]:     Atmosphere (UnityEngine.GameObject)
+[LOG 22:22:47]:      >>> Components <<< 
+[LOG 22:22:47]:      Atmosphere (UnityEngine.Transform)
+[LOG 22:22:47]:      Atmosphere (UnityEngine.MeshFilter)
+[LOG 22:22:47]:      Atmosphere (UnityEngine.MeshRenderer)
+[LOG 22:22:47]:      Atmosphere (AtmosphereFromGround)
+[LOG 22:22:47]:      >>> ---------- <<< 
+[LOG 22:22:47]: ===========================================
+[LOG 22:22:47]: Parsing Target Atmosphere in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.AtmosphereLoader)
+[LOG 22:22:47]: Parsing Target enabled in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target addAFG in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target oxygen in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target staticDensityASL in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target adiabaticIndex in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target maxAltitude in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target altitude in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target atmosphereDepth in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target gasMassLapseRate in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target atmosphereMolarMass in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target pressureCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target pressureCurveIsNormalized in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target staticPressureASL in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target temperatureCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target temperatureCurveIsNormalized in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Boolean])
+[LOG 22:22:47]: Parsing Target temperatureLapseRate in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target temperatureSeaLevel in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target temperatureSunMultCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target temperatureLatitudeBiasCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target temperatureLatitudeSunMultCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target temperatureAxialSunBiasCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target temperatureAxialSunMultCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target temperatureEccentricityBiasCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.FloatCurveParser)
+[LOG 22:22:47]: Parsing Target ambientColor in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:47]: Parsing Target AtmosphereFromGround in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.AtmosphereFromGroundLoader)
+[LOG 22:22:47]: Parsing Target lightColor in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.ColorParser)
+[LOG 22:22:47]: Parsing Target PQS in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.PQSLoader)
+[LOG 22:22:47]: Parsing Target materialType in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.EnumParser`1[Kopernicus.Configuration.PQSLoader+SurfaceMaterialType])
+[LOG 22:22:47]: Parsing Target PhysicsMaterial in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.Parsing.PhysicsMaterialParser)
+[LOG 22:22:47]: Parsing Target minLevel in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:47]: Parsing Target maxLevel in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Int32])
+[LOG 22:22:47]: Parsing Target minDetailDistance in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target maxQuadLengthsPerFrame in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target fadeStart in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target fadeEnd in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Single])
+[LOG 22:22:47]: Parsing Target deactivateAltitude in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target mapMaxHeight in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.ConfigParser.BuiltinTypeParsers.NumericParser`1[System.Double])
+[LOG 22:22:47]: Parsing Target Material in (Kopernicus.Configuration.PQSLoader) as (UnityEngine.Material)
+[LOG 22:22:47]: Parsing Target FallbackMaterial in (Kopernicus.Configuration.PQSLoader) as (UnityEngine.Material)
+[LOG 22:22:47]: Parsing Target Mods in (Kopernicus.Configuration.PQSLoader) as (System.Collections.Generic.List`1[Kopernicus.Configuration.ModLoader.IModLoader])
+[LOG 22:22:47]:   Duna (UnityEngine.GameObject)
+[LOG 22:22:47]:    >>> Components <<< 
+[LOG 22:22:47]:    Duna (UnityEngine.Transform)
+[LOG 22:22:47]:    Duna (PQS)
+[LOG 22:22:47]:    >>> ---------- <<< 
+[LOG 22:22:47]:       _Height (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        _Height (UnityEngine.Transform)
+[LOG 22:22:47]:        _Height (PQSMod_VertexHeightMap)
+[LOG 22:22:47]:        _Height (PQSMod_VertexSimplexHeightAbsolute)
+[LOG 22:22:47]:        _Height (PQSMod_VertexHeightNoiseVertHeightCurve2)
+[LOG 22:22:47]:        _Height (PQSMod_VertexHeightNoiseVertHeightCurve2)
+[LOG 22:22:47]:        _Height (PQSMod_VertexHeightNoiseVertHeightCurve2)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       _Material_ModProjection (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        _Material_ModProjection (UnityEngine.Transform)
+[LOG 22:22:47]:        _Material_ModProjection (PQSMod_AltitudeAlpha)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       _LandClass (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        _LandClass (UnityEngine.Transform)
+[LOG 22:22:47]:        _LandClass (PQSLandControl)
+[LOG 22:22:47]:        _LandClass (PQSMod_VertexColorMapBlend)
+[LOG 22:22:47]:        _LandClass (PQSMod_VertexSimplexNoiseColor)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:           Scatter (UnityEngine.GameObject)
+[LOG 22:22:47]:            >>> Components <<< 
+[LOG 22:22:47]:            Scatter (UnityEngine.Transform)
+[LOG 22:22:47]:            Scatter (Kopernicus.Components.ModularScatter.ModularScatter)
+[LOG 22:22:47]:            >>> ---------- <<< 
+[LOG 22:22:47]:           Scatter (UnityEngine.GameObject)
+[LOG 22:22:47]:            >>> Components <<< 
+[LOG 22:22:47]:            Scatter (UnityEngine.Transform)
+[LOG 22:22:47]:            Scatter (Kopernicus.Components.ModularScatter.ModularScatter)
+[LOG 22:22:47]:            >>> ---------- <<< 
+[LOG 22:22:47]:       _Material_AerialPerspective (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        _Material_AerialPerspective (UnityEngine.Transform)
+[LOG 22:22:47]:        _Material_AerialPerspective (PQSMod_AerialPerspectiveMaterial)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       _Material_SurfaceQuads (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        _Material_SurfaceQuads (UnityEngine.Transform)
+[LOG 22:22:47]:        _Material_SurfaceQuads (PQSMod_UVPlanetRelativePosition)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       _CelestialBody (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        _CelestialBody (UnityEngine.Transform)
+[LOG 22:22:47]:        _CelestialBody (PQSMod_CelestialBodyTransform)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       Face (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        Face (UnityEngine.Transform)
+[LOG 22:22:47]:        Face (PQSCity)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:           face (UnityEngine.GameObject)
+[LOG 22:22:47]:            >>> Components <<< 
+[LOG 22:22:47]:            face (UnityEngine.Transform)
+[LOG 22:22:47]:            face (UnityEngine.MeshFilter)
+[LOG 22:22:47]:            face (UnityEngine.MeshRenderer)
+[LOG 22:22:47]:            face (UnityEngine.CapsuleCollider)
+[LOG 22:22:47]:            face (UnityEngine.SphereCollider)
+[LOG 22:22:47]:            face (UnityEngine.SphereCollider)
+[LOG 22:22:47]:            >>> ---------- <<< 
+[LOG 22:22:47]:       QuadMeshColliders (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        QuadMeshColliders (UnityEngine.Transform)
+[LOG 22:22:47]:        QuadMeshColliders (PQSMod_QuadMeshColliders)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       MSL (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        MSL (UnityEngine.Transform)
+[LOG 22:22:47]:        MSL (PQSCity)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:           MSL (UnityEngine.GameObject)
+[LOG 22:22:47]:            >>> Components <<< 
+[LOG 22:22:47]:            MSL (UnityEngine.Transform)
+[LOG 22:22:47]:            MSL (UnityEngine.MeshFilter)
+[LOG 22:22:47]:            MSL (UnityEngine.MeshRenderer)
+[LOG 22:22:47]:            MSL (UnityEngine.BoxCollider)
+[LOG 22:22:47]:            >>> ---------- <<< 
+[LOG 22:22:47]:           MSL_Rock (UnityEngine.GameObject)
+[LOG 22:22:47]:            >>> Components <<< 
+[LOG 22:22:47]:            MSL_Rock (UnityEngine.Transform)
+[LOG 22:22:47]:            MSL_Rock (UnityEngine.Animation)
+[LOG 22:22:47]:            MSL_Rock (UnityEngine.MeshFilter)
+[LOG 22:22:47]:            MSL_Rock (UnityEngine.MeshRenderer)
+[LOG 22:22:47]:            MSL_Rock (UnityEngine.MeshCollider)
+[LOG 22:22:47]:            >>> ---------- <<< 
+[LOG 22:22:47]:       Pyramid (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        Pyramid (UnityEngine.Transform)
+[LOG 22:22:47]:        Pyramid (PQSMod_MapDecal)
+[LOG 22:22:47]:        Pyramid (PQSCity)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:           Audio Source (UnityEngine.GameObject)
+[LOG 22:22:47]:            >>> Components <<< 
+[LOG 22:22:47]:            Audio Source (UnityEngine.Transform)
+[LOG 22:22:47]:            Audio Source (UnityEngine.AudioSource)
+[LOG 22:22:47]:            Audio Source (AudioMuter)
+[LOG 22:22:47]:            >>> ---------- <<< 
+[LOG 22:22:47]:       Randolith (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        Randolith (UnityEngine.Transform)
+[LOG 22:22:47]:        Randolith (PQSCity)
+[LOG 22:22:47]:        Randolith (PrefabSpawner)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:           monolith01 (UnityEngine.GameObject)
+[LOG 22:22:47]:            >>> Components <<< 
+[LOG 22:22:47]:            monolith01 (UnityEngine.Transform)
+[LOG 22:22:47]:            monolith01 (UnityEngine.MeshFilter)
+[LOG 22:22:47]:            monolith01 (UnityEngine.MeshRenderer)
+[LOG 22:22:47]:            monolith01 (UnityEngine.Animation)
+[LOG 22:22:47]:            monolith01 (UnityEngine.MeshCollider)
+[LOG 22:22:47]:            >>> ---------- <<< 
+[LOG 22:22:47]:       _PQSROCControl (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        _PQSROCControl (UnityEngine.Transform)
+[LOG 22:22:47]:        _PQSROCControl (PQSROCControl)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       LandControlFixer (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        LandControlFixer (UnityEngine.Transform)
+[LOG 22:22:47]:        LandControlFixer (Kopernicus.Components.PQSLandControlFixer)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]:       OnDemandHandler (UnityEngine.GameObject)
+[LOG 22:22:47]:        >>> Components <<< 
+[LOG 22:22:47]:        OnDemandHandler (UnityEngine.Transform)
+[LOG 22:22:47]:        OnDemandHandler (Kopernicus.OnDemand.PQSMod_OnDemandHandler)
+[LOG 22:22:47]:        >>> ---------- <<< 
+[LOG 22:22:47]: Parsing Target Ocean in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.OceanLoader)
+[LOG 22:22:47]: Parsing Target Rings in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.Configuration.RingLoader])
+[LOG 22:22:47]: Parsing Target Particles in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.Configuration.ParticleLoader])
+[LOG 22:22:47]: Parsing Target HazardousBody in (Kopernicus.Configuration.Body) as (System.Collections.Generic.List`1[Kopernicus.Configuration.HazardousBodyLoader])
+[LOG 22:22:47]: Parsing Target SpaceCenter in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.SpaceCenterLoader)
+[LOG 22:22:47]: Parsing Target Debug in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.DebugLoader)
+[LOG 22:22:47]: Parsing Target PostSpawnOrbit in (Kopernicus.Configuration.Body) as (ConfigNode)
+[LOG 22:22:48]: --------- Celestial Body ------------
+[LOG 22:22:48]: bodyName = Duna
+[LOG 22:22:48]: bodyDisplayName = #autoLOC_910045
+[LOG 22:22:48]: bodyAdjectiveDisplayName = #autoLOC_6004063
+[LOG 22:22:48]: bodyDescription = #autoLOC_900100
+[LOG 22:22:48]: GeeASL = 0.300102493404406
+[LOG 22:22:48]: Radius = 320000
+[LOG 22:22:48]: Mass = 0
+[LOG 22:22:48]: Density = 0
+[LOG 22:22:48]: SurfaceArea = 0
+[LOG 22:22:48]: gravParameter = 0
+[LOG 22:22:48]: sphereOfInfluence = 0
+[LOG 22:22:48]: hillSphere = 0
+[LOG 22:22:48]: gMagnitudeAtCenter = 0
+[LOG 22:22:48]: atmDensityASL = 0
+[LOG 22:22:48]: atmPressureASL = 0
+[LOG 22:22:48]: scaledEllipsoid = True
+[LOG 22:22:48]: scaledElipRadMult = [1, 1, 1]
+[LOG 22:22:48]: scaledRadiusHorizonMultiplier = 1
+[LOG 22:22:48]: navballSwitchRadiusMult = 0.06
+[LOG 22:22:48]: navballSwitchRadiusMultLow = 0.055
+[LOG 22:22:48]: use_The_InName = False
+[LOG 22:22:48]: isHomeWorld = False
+[LOG 22:22:48]: ocean = False
+[LOG 22:22:48]: oceanUseFog = True
+[LOG 22:22:48]: oceanFogPQSDepth = 1000
+[LOG 22:22:48]: oceanFogPQSDepthRecip = 0.001
+[LOG 22:22:48]: oceanFogDensityStart = 0.015
+[LOG 22:22:48]: oceanFogDensityEnd = 0.13
+[LOG 22:22:48]: oceanFogDensityPQSMult = 0.02
+[LOG 22:22:48]: oceanFogDensityAltScalar = -0.0008
+[LOG 22:22:48]: oceanFogDensityExponent = 1
+[LOG 22:22:48]: oceanFogColorStart = RGBA(0.000, 0.337, 0.486, 1.000)
+[LOG 22:22:48]: oceanFogColorEnd = RGBA(0.000, 0.084, 0.122, 1.000)
+[LOG 22:22:48]: oceanFogDawnFactor = 10
+[LOG 22:22:48]: oceanSkyColorMult = 1.2
+[LOG 22:22:48]: oceanSkyColorOpacityBase = 0.2
+[LOG 22:22:48]: oceanSkyColorOpacityAltMult = 2
+[LOG 22:22:48]: oceanDensity = 1
+[LOG 22:22:48]: oceanAFGBase = 0.6
+[LOG 22:22:48]: oceanAFGAltMult = 0.05
+[LOG 22:22:48]: oceanAFGMin = 0.05
+[LOG 22:22:48]: oceanSunBase = 0.5
+[LOG 22:22:48]: oceanSunAltMult = 0.01
+[LOG 22:22:48]: oceanSunMin = 0.05
+[LOG 22:22:48]: oceanAFGLerp = False
+[LOG 22:22:48]: oceanMinAlphaFogDistance = 200
+[LOG 22:22:48]: oceanMaxAlbedoFog = 0.95
+[LOG 22:22:48]: oceanMaxAlphaFog = 0.9
+[LOG 22:22:48]: oceanAlbedoDistanceScalar = 0.01
+[LOG 22:22:48]: oceanAlphaDistanceScalar = 0.01
+[LOG 22:22:48]: minOrbitalDistance = 100000
+[LOG 22:22:48]: atmosphere = True
+[LOG 22:22:48]: atmosphereContainsOxygen = False
+[LOG 22:22:48]: atmosphereDepth = 50000
+[LOG 22:22:48]: atmosphereTemperatureSeaLevel = 250
+[LOG 22:22:48]: atmospherePressureSeaLevel = 6.755
+[LOG 22:22:48]: atmosphereMolarMass = 0.043
+[LOG 22:22:48]: atmosphereAdiabaticIndex = 1.20000004768372
+[LOG 22:22:48]: atmosphereTemperatureLapseRate = 0
+[LOG 22:22:48]: atmosphereGasMassLapseRate = 0
+[LOG 22:22:48]: atmosphereUseTemperatureCurve = True
+[LOG 22:22:48]: atmosphereTemperatureCurveIsNormalized = False
+[LOG 22:22:48]: atmosphereTemperatureCurve = FloatCurve
+[LOG 22:22:48]: latitudeTemperatureBiasCurve = FloatCurve
+[LOG 22:22:48]: latitudeTemperatureSunMultCurve = FloatCurve
+[LOG 22:22:48]: axialTemperatureSunMultCurve = FloatCurve
+[LOG 22:22:48]: axialTemperatureSunBiasCurve = FloatCurve
+[LOG 22:22:48]: atmosphereTemperatureSunMultCurve = FloatCurve
+[LOG 22:22:48]: maxAxialDot = 0
+[LOG 22:22:48]: eccentricityTemperatureBiasCurve = FloatCurve
+[LOG 22:22:48]: albedo = 0.17
+[LOG 22:22:48]: emissivity = 0.83
+[LOG 22:22:48]: coreTemperatureOffset = 0
+[LOG 22:22:48]: convectionMultiplier = 1
+[LOG 22:22:48]: shockTemperatureMultiplier = 1.1
+[LOG 22:22:48]: atmosphereUsePressureCurve = True
+[LOG 22:22:48]: atmospherePressureCurveIsNormalized = False
+[LOG 22:22:48]: atmospherePressureCurve = FloatCurve
+[LOG 22:22:48]: radiusAtmoFactor = 1
+[LOG 22:22:48]: hasSolidSurface = True
+[LOG 22:22:48]: isStar = False
+[LOG 22:22:48]: rotation = (0.0, 0.0, 0.0, 0.0)
+[LOG 22:22:48]: orbitDriver = Duna (OrbitDriver)
+[LOG 22:22:48]: pqsController = Duna (PQS)
+[LOG 22:22:48]: pqsSurfaceObjects = PQSSurfaceObject[]
+[LOG 22:22:48]: scaledBody = Duna (UnityEngine.GameObject)
+[LOG 22:22:48]: afg = 
+[LOG 22:22:48]: rotates = True
+[LOG 22:22:48]: rotationPeriod = 65517.859375
+[LOG 22:22:48]: rotPeriodRecip = 0
+[LOG 22:22:48]: solarDayLength = 0
+[LOG 22:22:48]: solarRotationPeriod = False
+[LOG 22:22:48]: initialRotation = 90
+[LOG 22:22:48]: rotationAngle = 0
+[LOG 22:22:48]: directRotAngle = 0
+[LOG 22:22:48]: angularVelocity = [0, 0, 0]
+[LOG 22:22:48]: zUpAngularVelocity = [0, 0, 0]
+[LOG 22:22:48]: tidallyLocked = False
+[LOG 22:22:48]: clampInverseRotThreshold = True
+[LOG 22:22:48]: inverseRotation = False
+[LOG 22:22:48]: inverseRotThresholdAltitude = 100000
+[LOG 22:22:48]: angularV = 0
+[LOG 22:22:48]: timeWarpAltitudeLimits = System.Single[]
+[LOG 22:22:48]: atmosphericAmbientColor = RGBA(0.306, 0.187, 0.235, 1.000)
+[LOG 22:22:48]: orbitingBodies = System.Collections.Generic.List`1[CelestialBody]
+[LOG 22:22:48]: BodyFrame = Planetarium+CelestialFrame
+[LOG 22:22:48]: progressTree = KSPAchievements.CelestialBodySubtree
+[LOG 22:22:48]: bodyType = Generic
+[LOG 22:22:48]: scienceValues = CelestialBodyScienceParams
+[LOG 22:22:48]: BiomeMap = duna_biome (CBAttributeMapSO)
+[LOG 22:22:48]: MiniBiomes = MiniBiome[]
+[LOG 22:22:48]: bodyTransform = 
+[LOG 22:22:48]: --------------------------------------
